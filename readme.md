@@ -1,8 +1,8 @@
-# x 
+# xmark 
 
-> X marks the spot: A simple debugging tool. console.log() wrapper that allows functions to be passed in.
+> X Marks The Spot: A simple console.log() [debugging] wrapper that allows functions to be passed in.
 
-[![Build Status](https://travis-ci.org/radiovisual/x.svg?branch=master)](https://travis-ci.org/radiovisual/x)
+[![Build Status](https://travis-ci.org/radiovisual/xmark.svg?branch=master)](https://travis-ci.org/radiovisual/xmark)
 
 ### Why?
 
@@ -14,14 +14,14 @@
 ## Install
 
 ```
-$ npm install --save x
+$ npm install --save xmark
 ```
 
 
 ## Usage
 
 ```js
-const x = require('x');
+const x = require('xmark');
 
 x(1);
 //=> 1
@@ -42,7 +42,7 @@ x(function () {
 
 ## API
 
-### x(input)
+### xmark(input)
 
 #### input
 

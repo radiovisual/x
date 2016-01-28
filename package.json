@@ -1,7 +1,7 @@
 {
-  "name": "x",
+  "name": "xmark",
   "version": "0.0.1",
-  "description": "A simple debugging tool. console.log() wrapper that allows functions to be passed in.",
+  "description": "X Marks The Spot: A simple console.log() [debugging] wrapper that allows functions to be passed in.",
   "license": "MIT",
   "repository": "radiovisual/x",
   "author": {
