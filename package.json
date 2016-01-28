@@ -22,10 +22,12 @@
     "x",
     "console",
     "log",
+    "logging",
     "wrapper",
     "debug",
     "print",
-    "trace"
+    "trace",
+    "debugging"
   ],
   "devDependencies": {
     "ava": "^0.8.0",
