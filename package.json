@@ -1,0 +1,36 @@
+{
+  "name": "x",
+  "version": "0.0.1",
+  "description": "A simple debugging tool. console.log() wrapper that allows functions to be passed in.",
+  "license": "MIT",
+  "repository": "radiovisual/x",
+  "author": {
+    "name": "Michael Wuergler",
+    "email": "wuergler@gmail.com",
+    "url": "numetriclabs.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "x",
+    "console",
+    "log",
+    "wrapper",
+    "debug",
+    "print",
+    "trace"
+  ],
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "execa": "^0.2.2",
+    "selective-whitespace": "^1.0.1",
+    "xo": "^0.12.1"
+  }
+}
