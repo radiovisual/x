@@ -9,4 +9,7 @@ x({3: 3});
 x(function () {
 	console.log('4');
 });
+x(5, 6, function () {
+	console.log(7);
+});
 process.exit(0);

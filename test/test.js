@@ -11,5 +11,6 @@ test('x marks the spot', async t => {
 		ret = err.stderr;
 	}
 
-	t.is(condense(ret.stdout, {stripAll: true}).replace(/'/g, ''), '12{3:3}4');
+	t.is(condense(ret.stdout, {stripAll: true}).replace(/'/g, ''), '12{3:3}4567');
 });
+

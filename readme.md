@@ -37,6 +37,9 @@ x(function () {
 });
 //=> 4
 
+x(5,6);
+//=> 5
+//=> 6
 ```
 
 
@@ -48,7 +51,7 @@ x(function () {
 
 Type: `string|number|object|function`
 
-The object you want to print, or the function you want to run.
+The object(s) you want to print, or the function(s) you want to run.
 
 ## License
 
