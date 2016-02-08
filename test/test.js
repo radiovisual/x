@@ -1,6 +1,5 @@
 import test from 'ava';
 import execa from 'execa';
-import condense from 'selective-whitespace';
 
 test('x marks the spot', async t => {
 	let ret;
@@ -11,6 +10,5 @@ test('x marks the spot', async t => {
 		ret = err.stderr;
 	}
 
-	t.is(condense(ret.stdout, {stripAll: true}).replace(/'/g, ''), '12{3:3}4567');
+	t.is(ret.stdout, '1 \n2 \n{\"3\":3} \n4\n5 6 7\n8 9 10 11 12 13\n[14,15] [16,17] ');
 });
-
